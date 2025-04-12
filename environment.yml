@@ -1,6 +1,23 @@
 name: base
-dependencies:
-  - python=3.10
+channels:
+  - defaults
+dependencies: numpy,
+  - python= 3.13.2
   - flake8
   - pytest
+  - any_other_dependencies
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  jupyter
+  - ipython
+  - pylint
+  - invoke
+  - joblib
+  - black
+  - nb_black
+  - pip
+  - pip:
+      - some-pip-package
   # Add other dependencies here
